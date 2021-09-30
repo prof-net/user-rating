@@ -7,8 +7,19 @@ export interface IUser {
     uid: string,
 }
 
+export interface IUsersRating extends IUser {
+    rating: number;
+}
+
 export interface IColumn {
     key: string,
     name: string
 }
+
+export enum enumTypeGrid {
+    users = 'USERS',
+    usersRatingGood = 'USERS_RATING_GOOD',
+    usersRatingBad = 'USERS_RATING_BAD'
+}
+
 

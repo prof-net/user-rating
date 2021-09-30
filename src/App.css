@@ -1,0 +1,12 @@
+.test-main {
+    display: flex;
+}
+
+.test-column {
+    margin: 15px;
+
+}
+
+.test-buttons {
+    margin: 15px 10px;
+}
