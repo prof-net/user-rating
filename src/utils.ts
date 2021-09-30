@@ -12,7 +12,8 @@ export const convertUsers = (serverUsers:any) => {
         }
         return {
             ...newUser,
-            key: item.uid
+            key: item.uid,
+            uid: item.uid
         };
     });
 }

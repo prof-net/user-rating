@@ -21,8 +21,8 @@ export const listColumns: IColumn[] = [
         key: 'date_of_birth',
         name: 'День рождения'
     },
-    {
-        key: 'uid',
-        name: 'uid'
-    },
+    // {
+    //     key: 'uid',
+    //     name: 'uid'
+    // },
 ];
